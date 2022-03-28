@@ -19,5 +19,23 @@
     <script src="js/scripts.js"></script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Favorite Things</h1>
+    <form>
+      <label for="food">Favorite Food:</label>
+      <input type="text" id="food" class="form-control" />
+
+      <label for="animal">Favorite animal:</label>
+      <input type="text" id="animal" class="form-control" />
+
+      <label for="color">Favorite color:</label>
+      <input type="text" id="color" class="form-control" />
+      <button type="Submit" id="submit" class="btn-primary btn">Submit</button>
+    </form>
+    <ul id="output">
+      <li id="food-li" class="hidden"></li>
+      <li id="animal-li" class="hidden"></li>
+      <li id="color-li" class="hidden"></li>
+    </ul>
+  </body>
 </html>
